@@ -1,0 +1,21 @@
+body{
+	background-color:#fbf9f9;
+}
+
+.box1{
+	width:30em;
+	height:50em;
+	background-color:pink;
+	float:left;
+	margin-left:2em;
+	margin-top:2em;
+}
+
+.box2{
+	width:60em;
+	height:50em;
+	background-color:orange;
+	float:right;
+	margin-right:2em;
+	margin-top:2em;
+}
