@@ -39,7 +39,7 @@ strong:hover{color:#fb0177;}
 	background-color:white;
 	margin-left:2em;
 	margin-top:0.5em;
-	display:flex;
+	/*display:flex;取消flex布局先*/
 	border-radius:10px;
 }
 
@@ -89,6 +89,23 @@ strong:hover{color:#fb0177;}
 	height:7em;
 	margin-left:1em;
 	padding-top:0.8em;
+	background-color:pink;
+}
+
+.box2-2{
+	height:15em;
+	margin-left:1em;
+	padding-top:0.8em;
+	border-top: 2px solid #b2b2b2;
+	background-color:orange;
+}
+
+.box2-3{
+	height:15em;
+	margin-left:1em;
+	padding-top:0.8em;
+	border-top: 2px solid #b2b2b2;
+	background-color:blue;
 }
 
 @media screen and (max-width:1920px) {
