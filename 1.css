@@ -85,6 +85,12 @@ strong:hover{color:#fb0177;}
 	border-top: 2px solid #b2b2b2;
 }
 
+.box2-1{
+	height:7em;
+	margin-left:1em;
+	padding-top:0.8em;
+}
+
 @media screen and (max-width:1920px) {
 .box1{
 	min-width:21.3125em;
