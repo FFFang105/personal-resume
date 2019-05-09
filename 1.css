@@ -2,11 +2,16 @@ body{
 	background-color:#fcd3f8;
 }
 
+.box{
+	width:100%px;
+    display:flex;
+    flex-direction:row;
+}
+
 .box1{
 	width:20.187em;
 	height:53.75em;
 	background-color:white;
-	float:left;
 	margin-left:11.9375em;
 	margin-top:0.5em;
 }
@@ -15,7 +20,7 @@ body{
 	width:73.25em;
 	height:53.75em;
 	background-color:white;
-	float:left;
+    display:flex;
 	margin-left:2em;
 	margin-top:0.5em;
 }
@@ -26,17 +31,21 @@ body{
 .box1{
 	margin-left:0.25em;
     width:19.8125em;
-    background-color:white;
+    background-color:blue;
+    flex-grow:0;
 }
 
 .box2{
-    max-width:37.4375em;
-    min-width:1em;
-    background-color:white;
+    width:37.4375em;
+    background-color:blue;
 }
 }
 
 @media screen and (max-width:414px) {
+.box{
+	flex-direction:column;
+}
+
 .box1{
     width:21.3125em;
     height:51em;
