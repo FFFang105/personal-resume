@@ -14,6 +14,7 @@ ol{padding-left:1em;
 strong{
 	font-size:1.5em;
 }
+strong:hover{color:#fb0177;}
 
 
 
@@ -50,9 +51,21 @@ strong{
 }
 
 .box1-2{
-	width:21.3125em;
+	width:20em;
 	height:7em;
-	padding-left:0.5em;
+	margin-left:1em;
+	padding-top:0.8em;
+	padding-bottom:1em;
+	border-top: 2px solid #b2b2b2;
+}
+
+.box1-3{
+	width:20em;
+	height:7em;
+	margin-left:1em;
+	padding-top:0.8em;
+	padding-bottom:1em;
+	border-top: 2px solid #b2b2b2;
 }
 
 @media screen and (max-width:1920px) {
