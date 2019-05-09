@@ -2,7 +2,20 @@ body{
 	background-color:#fcd3f8;
 }
 
-dl,dt,dd{margin-left:0;margin:0;}
+ul,ol,li{margin:0;
+padding: 0;
+list-style-type:0;}
+
+ol{padding-left:1em;
+	display:inline-block;
+
+}
+
+strong{
+	font-size:1.5em;
+}
+
+
 
 .box{
 	width:100%px;
@@ -30,12 +43,17 @@ dl,dt,dd{margin-left:0;margin:0;}
 }
 
 .box1-1{
-	width:21.3125em;
-    height: 17em;
-    margin-left:5em;
-    margin-top:2em;
+	width:15.3125em;
+    height: 13em;
+    padding-left:6em;
+    padding-top:2em;
 }
 
+.box1-2{
+	width:21.3125em;
+	height:7em;
+	padding-left:0.5em;
+}
 
 @media screen and (max-width:1920px) {
 .box1{
