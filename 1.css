@@ -2,10 +2,11 @@ body{
 	background-color:#fcd3f8;
 }
 
+dl,dt,dd{margin-left:0;margin:0;}
+
 .box{
 	width:100%px;
     display:flex;
-    flex-direction:row;
 }
 
 .box1{
@@ -14,8 +15,8 @@ body{
 	background-color:white;
 	margin-left:11.9375em;
 	margin-top:0.5em;
-	display:flex;
-	flex-grow:initial;
+	
+	border-radius:10px;
 }
 
 .box2{
@@ -25,16 +26,23 @@ body{
 	margin-left:2em;
 	margin-top:0.5em;
 	display:flex;
+	border-radius:10px;
 }
+
+.box1-1{
+	width:21.3125em;
+    height: 17em;
+    margin-left:5em;
+    margin-top:2em;
+}
+
 
 @media screen and (max-width:1920px) {
 .box1{
 	min-width:21.3125em;
-    background-color:orange;
 }
 
 .box2{
-    background-color:orange;
 }
 }
 
@@ -42,13 +50,13 @@ body{
 .box1{
 	min-width:21.3125em;
 	margin-left:0.25em;
-    background-color:blue;
+
     flex-grow:0;
 }
 
 .box2{
     width:37.4375em;
-    background-color:blue;
+
 }
 }
 
@@ -60,13 +68,12 @@ body{
 .box1{
     height:51em;
 	margin-left:1.25em;
-    background-color:black;
+
 }
 .box2{
 	width:21.3125em;
     height:80em;
 	margin-left:1.25em;
-    background-color:black;
 }
 }
 
