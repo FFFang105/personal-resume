@@ -2,43 +2,62 @@ body{
 	background-color:#fcd3f8;
 }
 
+.box{
+	width:100%px;
+    display:flex;
+    flex-direction:row;
+}
+
 .box1{
-	width:20.187em;
+    width:21.3125em;
 	height:53.75em;
 	background-color:white;
-	float:left;
 	margin-left:11.9375em;
 	margin-top:0.5em;
+	display:flex;
+	flex-grow:initial;
 }
 
 .box2{
 	width:73.25em;
 	height:53.75em;
 	background-color:white;
-	float:left;
 	margin-left:2em;
 	margin-top:0.5em;
+	display:flex;
 }
 
-
-
-@media screen and (max-width:1024px) {
+@media screen and (max-width:1920px) {
 .box1{
-	margin-left:0.25em;
-    width:19.8125em;
-    background-color:white;
+	min-width:21.3125em;
+    background-color:orange;
 }
 
 .box2{
-    max-width:37.4375em;
-    min-width:1em;
-    background-color:white;
+    background-color:orange;
+}
+}
+
+@media screen and (max-width:1024px) {
+.box1{
+	min-width:21.3125em;
+	margin-left:0.25em;
+    background-color:blue;
+    flex-grow:0;
+}
+
+.box2{
+    width:37.4375em;
+    background-color:blue;
 }
 }
 
 @media screen and (max-width:414px) {
+.box{
+	flex-direction:column;/*排列方式变换为竖着*/
+}
+
 .box1{
-    width:21.3125em;
     height:51em;
 	margin-left:1.25em;
     background-color:black;
