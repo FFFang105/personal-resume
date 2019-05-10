@@ -48,7 +48,7 @@ strong:hover{color:#fb0177;}
     height: 13em;
     padding-left:6em;
     padding-top:2em;
-}
+}/*照片介绍*/
 
 .box1-2{
 	width:20em;
@@ -57,7 +57,7 @@ strong:hover{color:#fb0177;}
 	padding-top:0.8em;
 	padding-bottom:1em;
 	border-top: 2px solid #b2b2b2;
-}
+}/*基本信息*/
 
 .box1-3{
 	width:20em;
@@ -66,7 +66,7 @@ strong:hover{color:#fb0177;}
 	padding-top:0.8em;
 	padding-bottom:1em;
 	border-top: 2px solid #b2b2b2;
-}
+}/*联系方式*/
 
 .box1-4{
 	width:20em;
@@ -75,7 +75,7 @@ strong:hover{color:#fb0177;}
 	padding-top:0.8em;
 	padding-bottom:2em;
 	border-top: 2px solid #b2b2b2;
-}
+}/*技能*/
 
 .box1-5{
 	width:20em;
@@ -83,46 +83,40 @@ strong:hover{color:#fb0177;}
 	margin-left:1em;
 	padding-top:0.8em;
 	border-top: 2px solid #b2b2b2;
-}
+}/*技能*/
 
 .box2-1{
 	height:7em;
 	margin-left:1em;
 	padding-top:0.8em;
-	background-color:pink;
-}
+}/*教育经历*/
 
 .box2-2{
 	height:15em;
 	margin-left:1em;
 	padding-top:0.8em;
 	border-top: 2px solid #b2b2b2;
-	background-color:orange;
-}
+}/*项目经历*/
 
 .box2-3{
 	height:15em;
-	margin-left:1em;
 	padding-top:0.8em;
-	border-top: 2px solid #b2b2b2;
-	background-color:blue;
-}
+	border-top:2px solid #b2b2b2;
+}/*自我期望*/
 
 @media screen and (max-width:1920px) {
 .box1{
 	min-width:21.3125em;
 }
 
-.box2{
 }
-}
+
 
 @media screen and (max-width:1024px) {
 .box1{
 	min-width:21.3125em;
 	margin-left:0.25em;
-
-    flex-grow:0;
+   flex-grow:0;
 }
 
 .box2{
@@ -131,13 +125,31 @@ strong:hover{color:#fb0177;}
 }
 }
 
+@media screen and (max-width:800px){
+    .box2{
+    	height:55em;
+    }
+
+	.box2-1{
+		height:10em;
+	}
+	.box2-2{
+		height:30em;
+	}
+	.box2-3
+	{
+		height:20em;
+	}
+}
+
+
 @media screen and (max-width:414px) {
 .box{
 	flex-direction:column;/*排列方式变换为竖着*/
 }
 
 .box1{
-    height:51em;
+    height:55em;
 	margin-left:1.25em;
 
 }
@@ -146,5 +158,13 @@ strong:hover{color:#fb0177;}
     height:80em;
 	margin-left:1.25em;
 }
+
+.box2-2{
+	height:20em;
+}
+.box2-3
+	{
+		height:11em;
+	}
 }
 
