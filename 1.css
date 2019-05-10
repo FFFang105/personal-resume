@@ -1,5 +1,5 @@
 body{
-	background-color:#fcd3f8;
+	background-color:#cccbcb;
 }
 
 ul,ol,li{margin:0;
@@ -14,7 +14,7 @@ ol{padding-left:1em;
 strong{
 	font-size:1.5em;
 }
-strong:hover{color:#fb0177;}
+strong:hover{color:#7a7a7a;}
 
 
 
@@ -29,7 +29,6 @@ strong:hover{color:#fb0177;}
 	background-color:white;
 	margin-left:11.9375em;
 	margin-top:0.5em;
-	
 	border-radius:10px;
 }
 
@@ -53,7 +52,7 @@ strong:hover{color:#fb0177;}
 .box1-2{
 	width:20em;
 	height:7em;
-	margin-left:1em;
+	padding-left:1em;
 	padding-top:0.8em;
 	padding-bottom:1em;
 	border-top: 2px solid #b2b2b2;
@@ -62,7 +61,7 @@ strong:hover{color:#fb0177;}
 .box1-3{
 	width:20em;
 	height:7em;
-	margin-left:1em;
+	padding-left:1em;
 	padding-top:0.8em;
 	padding-bottom:1em;
 	border-top: 2px solid #b2b2b2;
@@ -71,7 +70,7 @@ strong:hover{color:#fb0177;}
 .box1-4{
 	width:20em;
 	height:7em;
-	margin-left:1em;
+	padding-left:1em;
 	padding-top:0.8em;
 	padding-bottom:2em;
 	border-top: 2px solid #b2b2b2;
@@ -80,20 +79,20 @@ strong:hover{color:#fb0177;}
 .box1-5{
 	width:20em;
 	height:7em;
-	margin-left:1em;
+	padding-left:1em;
 	padding-top:0.8em;
 	border-top: 2px solid #b2b2b2;
 }/*技能*/
 
 .box2-1{
-	height:7em;
-	margin-left:1em;
+	height:15em;
+	padding-left:1em;
 	padding-top:0.8em;
 }/*教育经历*/
 
 .box2-2{
-	height:15em;
-	margin-left:1em;
+	height:20em;
+	padding-left:1em;
 	padding-top:0.8em;
 	border-top: 2px solid #b2b2b2;
 }/*项目经历*/
@@ -103,6 +102,10 @@ strong:hover{color:#fb0177;}
 	padding-top:0.8em;
 	border-top:2px solid #b2b2b2;
 }/*自我期望*/
+
+.ha{
+	color:#615b5b;
+}
 
 @media screen and (max-width:1920px) {
 .box1{
@@ -129,17 +132,6 @@ strong:hover{color:#fb0177;}
     .box2{
     	height:55em;
     }
-
-	.box2-1{
-		height:10em;
-	}
-	.box2-2{
-		height:30em;
-	}
-	.box2-3
-	{
-		height:20em;
-	}
 }
 
 
@@ -155,16 +147,6 @@ strong:hover{color:#fb0177;}
 }
 .box2{
 	width:21.3125em;
-    height:80em;
+    height:50em;
 	margin-left:1.25em;
 }
-
-.box2-2{
-	height:20em;
-}
-.box2-3
-	{
-		height:11em;
-	}
-}
-
