@@ -50,7 +50,7 @@ strong:hover{color:#7a7a7a;}
     transition: All 0.4s ease-in-out;
 }/*照片介绍*/
 .box1-1:hover {
-            transform: rotate(360deg);}
+            transform: rotate(360deg);}/*鼠标移动上去后旋转360°*/
 
 .box1-2{
 	width:20em;
@@ -64,7 +64,7 @@ strong:hover{color:#7a7a7a;}
 
 .box1-2:hover{
 	transform: scale(2);
-	background-color:#bebdbd;
+	background-color:#bebdbd;/*鼠标移上去后放大两倍*/
 }
 
 .box1-3{
@@ -79,7 +79,7 @@ strong:hover{color:#7a7a7a;}
 
 .box1-3:hover{
 	transform: rotate(360deg) scale(2);
-	background-color:#bebdbd;
+	background-color:#bebdbd;/*鼠标移上去后放大两倍并且旋转*/
 }
 
 
@@ -95,9 +95,8 @@ strong:hover{color:#7a7a7a;}
 
 .box1-4:hover{
 	transform:translate(300px,-400px);
-	background-color:#bebdbd;
+	background-color:#bebdbd;/*鼠标移上去后移动位置*/
 }
-
 
 .box1-5{
 	width:20em;
@@ -107,11 +106,24 @@ strong:hover{color:#7a7a7a;}
 	border-top: 2px solid #b2b2b2;
 }/*技能*/
 
+.box1-5:hover{
+	height:10em;
+	transform:translate(300px,-400px);
+	background-color:#bebdbd;/*鼠标移上去后移动位置*/
+}
+
 .box2-1{
 	height:15em;
 	padding-left:1em;
 	padding-top:0.8em;
 }/*教育经历*/
+
+.box2-1:hover{
+	background-color:#bebdbd;
+	font-weight:bold;
+	font-size:1.5em;
+
+}
 
 .box2-2{
 	height:20em;
@@ -120,11 +132,22 @@ strong:hover{color:#7a7a7a;}
 	border-top: 2px solid #b2b2b2;
 }/*项目经历*/
 
+.box2-2:hover{
+	background-color:#bebdbd;
+	font-weight:bold;
+	font-size:1.5em;}
+
+
 .box2-3{
 	height:15em;
 	padding-top:0.8em;
 	border-top:2px solid #b2b2b2;
 }/*自我期望*/
+
+.box2-3:hover{
+	background-color:#bebdbd;
+	font-weight:bold;
+	font-size:1.5em;}
 
 .ha{
 	color:#615b5b;
