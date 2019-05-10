@@ -1,21 +1,198 @@
 body{
-	background-color:#fbf9f9;
+	background-color:#cccbcb;
+}
+
+ul,ol,li{margin:0;
+padding: 0;
+list-style-type:0;}
+
+ol{padding-left:1em;
+	display:inline-block;
+
+}
+
+strong{
+	font-size:1.5em;
+}
+strong:hover{color:#7a7a7a;}
+
+
+
+.box{
+	width:100%px;
+    display:flex;
 }
 
 .box1{
-	width:30em;
-	height:50em;
-	background-color:pink;
-	float:left;
-	margin-left:2em;
-	margin-top:2em;
+    width:21.3125em;
+	height:53.75em;
+	background-color:white;
+	margin-left:11.9375em;
+	margin-top:0.5em;
+	border-radius:10px;
 }
 
 .box2{
-	width:60em;
-	height:50em;
-	background-color:orange;
-	float:right;
-	margin-right:2em;
-	margin-top:2em;
+	width:73.25em;
+	height:53.75em;
+	background-color:white;
+	margin-left:2em;
+	margin-top:0.5em;
+	/*display:flex;取消flex布局先*/
+	border-radius:10px;
+}
+
+.box1-1{
+	width:15.3125em;
+    height: 13em;
+    padding-left:6em;
+    padding-top:2em;
+    transition: All 0.4s ease-in-out;
+}/*照片介绍*/
+.box1-1:hover {
+            transform: rotate(360deg);}/*鼠标移动上去后旋转360°*/
+
+.box1-2{
+	width:20em;
+	height:7em;
+	padding-left:1em;
+	padding-top:0.8em;
+	padding-bottom:1em;
+	border-top: 2px solid #b2b2b2;
+	transition: All 0.4s ease-in-out;
+}/*基本信息*/
+
+.box1-2:hover{
+	transform: scale(2);
+	background-color:#bebdbd;/*鼠标移上去后放大两倍*/
+}
+
+.box1-3{
+	width:20em;
+	height:7em;
+	padding-left:1em;
+	padding-top:0.8em;
+	padding-bottom:1em;
+	border-top: 2px solid #b2b2b2;
+	transition: All 0.4s ease-in-out;
+}/*联系方式*/
+
+.box1-3:hover{
+	transform: rotate(360deg) scale(2);
+	background-color:#bebdbd;/*鼠标移上去后放大两倍并且旋转*/
+}
+
+
+.box1-4{
+	width:20em;
+	height:7em;
+	padding-left:1em;
+	padding-top:0.8em;
+	padding-bottom:2em;
+	border-top: 2px solid #b2b2b2;
+	transition: All 0.4s ease-in-out;
+}/*技能*/
+
+.box1-4:hover{
+	transform:translate(300px,-400px);
+	background-color:#bebdbd;/*鼠标移上去后移动位置*/
+}
+
+.box1-5{
+	width:20em;
+	height:7em;
+	padding-left:1em;
+	padding-top:0.8em;
+	border-top: 2px solid #b2b2b2;
+}/*技能*/
+
+.box1-5:hover{
+	height:10em;
+	transform:translate(300px,-400px);
+	background-color:#bebdbd;/*鼠标移上去后移动位置*/
+}
+
+.box2-1{
+	height:15em;
+	padding-left:1em;
+	padding-top:0.8em;
+}/*教育经历*/
+
+.box2-1:hover{
+	background-color:#bebdbd;
+	font-weight:bold;
+	font-size:1.5em;
+
+}
+
+.box2-2{
+	height:20em;
+	padding-left:1em;
+	padding-top:0.8em;
+	border-top: 2px solid #b2b2b2;
+}/*项目经历*/
+
+.box2-2:hover{
+	background-color:#bebdbd;
+	font-weight:bold;
+	font-size:1.5em;}
+
+
+.box2-3{
+	height:15em;
+	padding-top:0.8em;
+	border-top:2px solid #b2b2b2;
+}/*自我期望*/
+
+.box2-3:hover{
+	background-color:#bebdbd;
+	font-weight:bold;
+	font-size:1.5em;}
+
+.ha{
+	color:#615b5b;
+}
+
+@media screen and (max-width:1920px) {
+.box1{
+	min-width:21.3125em;
+}
+
+}
+
+
+@media screen and (max-width:1024px) {
+.box1{
+	min-width:21.3125em;
+	margin-left:0.25em;
+   flex-grow:0;
+}
+
+.box2{
+    width:37.4375em;
+
+}
+}
+
+@media screen and (max-width:800px){
+    .box2{
+    	height:55em;
+    }
+}
+
+
+@media screen and (max-width:414px) {
+.box{
+	flex-direction:column;/*排列方式变换为竖着*/
+}
+
+.box1{
+    height:55em;
+	margin-left:1.25em;
+
+}
+.box2{
+	width:21.3125em;
+    height:50em;
+	margin-left:1.25em;
 }
